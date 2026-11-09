@@ -1,0 +1,17 @@
+{
+  "name": "tob-contract-evidence-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain part for ToB Contract Evidence System",
+  "scripts": {
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}

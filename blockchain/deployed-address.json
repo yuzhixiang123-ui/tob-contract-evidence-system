@@ -1,0 +1,20 @@
+{
+  "address": "0x63D370abcc71F18FF63722E504D2d73eAdc23eE9",
+  "deployer": "0xdD8b5475dd1746564297d8029Bf3f00781E5069B",
+  "network": "sepolia",
+  "chainId": 11155111,
+  "timestamp": "2026-10-08T07:15:42.671Z",
+  "abi": [
+    "event ContractApproved(uint256 indexed,address indexed,uint256)",
+    "event ContractRejected(uint256 indexed,address indexed,uint256)",
+    "event ContractStored(uint256 indexed,string,string,address indexed,uint256)",
+    "function approveContract(uint256)",
+    "function getContract(uint256) view returns (uint256,string,string,address,address,uint8,uint256)",
+    "function getContractCount() view returns (uint256)",
+    "function getContractURI(uint256) view returns (string)",
+    "function getUserContracts(address) view returns (uint256[])",
+    "function rejectContract(uint256)",
+    "function storeContract(string,string) returns (uint256)",
+    "function verifyHash(uint256,string) view returns (bool)"
+  ]
+}

@@ -1,0 +1,49 @@
+# ===== Dependencies =====
+node_modules/
+**/node_modules/
+
+# ===== Environment / secrets =====
+.env
+.env.local
+.env.*.local
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.keystore
+
+# ===== Logs =====
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Runtime uploads (user-contract files) =====
+backend/uploads/
+!backend/uploads/.gitkeep
+
+# ===== Hardhat build artifacts =====
+blockchain/artifacts/
+blockchain/cache/
+
+# ===== Frontend build output =====
+frontend/build/
+frontend/dist/
+*.tsbuildinfo
+
+# ===== IDE / editor =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===== Misc =====
+*.local
